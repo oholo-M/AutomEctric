@@ -1,271 +1,379 @@
 <!DOCTYPE HTML>
 <!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Editorial by HTML5 UP (corrigé & enrichi)
 -->
-<html>
-	<head>
-		<title>présentation de la page web</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<title>présentation de la page web — MOULO Oholo Kraidy Salomon</title>
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- Styles additionnels (assure photo à droite / rendu lisible si main.css absent) -->
+	<style>
+		/* Force un alignement propre du banner (texte à gauche, image à droite) */
+		#banner{ display:flex; align-items:center; gap:2rem; flex-wrap:wrap; padding:1rem 0; }
+		#banner .content{ flex:1 1 60%; min-width:260px; }
+		#banner .image.object{ flex:0 0 320px; text-align:right; }
+		#banner .image.object img{ width:100%; height:auto; border-radius:8px; box-shadow:0 8px 20px rgba(0,0,0,0.12); display:inline-block; }
+		@media (max-width:900px){
+			#banner{ flex-direction:column-reverse; }
+			#banner .image.object{text-align:center; width:100%; flex-basis:100%;}
+		}
+		/* petites corrections des listes/actions si le CSS du template manque */
+		ul.actions{ padding-left:0; list-style:none; }
+		ul.actions li{ display:inline-block; margin-right:0.6rem; margin-top:0.6rem; }
+	</style>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-									</ul>
-								</header>
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>Editorial</strong> by HTML5 UP</a>
+					<ul class="icons">
+						<li>
+							<!-- TODO: remplace TON_PROFIL_TWITTER par ton identifiant -->
+							<a href="https://twitter.com/TON_PROFIL_TWITTER" class="icon brands fa-twitter" target="_blank" rel="noopener">
+								<span class="label">Twitter</span>
+							</a>
+						</li>
+						<li>
+							<!-- TODO: remplace TON_PROFIL_FACEBOOK -->
+							<a href="https://www.facebook.com/TON_PROFIL_FACEBOOK" class="icon brands fa-facebook-f" target="_blank" rel="noopener">
+								<span class="label">Facebook</span>
+							</a>
+						</li>
+						<li>
+							<!-- TODO: remplace si tu veux garder Snapchat -->
+							<a href="https://www.snapchat.com/add/TON_PROFIL_SNAP" class="icon brands fa-snapchat-ghost" target="_blank" rel="noopener">
+								<span class="label">Snapchat</span>
+							</a>
+						</li>
+						<li>
+							<!-- TODO: remplace TON_PROFIL_INSTAGRAM -->
+							<a href="https://www.instagram.com/TON_PROFIL_INSTAGRAM" class="icon brands fa-instagram" target="_blank" rel="noopener">
+								<span class="label">Instagram</span>
+							</a>
+						</li>
+						<li>
+							<!-- Medium placeholder -->
+							<a href="https://medium.com/@TON_PROFIL_MEDIUM" class="icon brands fa-medium-m" target="_blank" rel="noopener">
+								<span class="label">Medium</span>
+							</a>
+						</li>
+					</ul>
+				</header>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Salut, je me présente MOULO Oholo Kraidy Salomon<br /></h1>
-											<p>Voici un site concret de réalisation de projet dans le domaine de l'électricité, de l'électrotechnique et de l'automatisme</p>
-										</header>
-										<p>Un espace dédié à l'apprentissage, où vous trouverez :
-											<ul>
-											<li> Cours interactifs (théorie & pratique)
-											<li> Tutoriels techniques (schémas électriques, automates programmables),
-											<li> Ressources gratuites (normes, calculs de puissance, sécurité),
-											<li> Projets concrets (domotique, industrie 4.0, énergies renouvelables).
-											<li> Et bien d'autre encore..
-											</ul>
-										Objectifs : Vous formez efficacement, que vous soyez étudiant, professionnel ou passionné comme moi 😊.
-										Prêt à maîtriser les courants forts et faibles ? Par où commencer ?
-										<ul>	<li> [Découvrez nos modules]
-											<li> [Parcourir les projets]
-											<li> [Contactez-nous pour un besoin spécifique]: 0142456870/0777463399 ou par mail oholo.moulo20@inphb.ci</ul>
-										</p>
+				<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h1>Salut, je me présente : MOULO Oholo Kraidy Salomon</h1>
+							<p>Voici un site concret de réalisation de projet dans le domaine de l'électricité, de l'électrotechnique et de l'automatisme.</p>
+						</header>
 
-										<p>Bienvenue à notre page web. Sans plus tarder, commençons notre exploration au cœur de l’électrotechnique, de l’électricité et de l’automatisme !</p>
-										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/plan électrique architectural.webp" alt="" />
-									</span>
-								</section>
+						<p>Un espace dédié à l'apprentissage, où vous trouverez :</p>
+						<ul>
+							<li>Cours interactifs (théorie & pratique)</li>
+							<li>Tutoriels (schémas électriques, automates programmables…)</li>
+							<li>Ressources gratuites (normes, calculs de puissance…)</li>
+							<li>Projets concrets (installation électrique, domotique, industrie 4.0, énergies renouvelables)</li>
+							<li>Et bien d'autres ressources</li>
+						</ul>
 
-							<!-- Section (c'est un commentaire) -->
-								<section>
-									<header class="major">
-										<h2>DESIGN ELECTRIQUE / CONCEPTION ELECTRIQUE BASSE TENSION</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Les Normes</h3>
-												<ul>
-													<li>La NFC 15-100
-													<li>Les Normes dérivées : UTE-15-105, UTE-C-106...
-													<li>La NFC 15-211
-												</ul>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Les préléminaires</h3>
-												<ul><li>Inventaire complet des équipements
-													<li>Plant Layout / Plan architectural
-												</ul>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>le Bilan de puissance et </br>dimensionnement électrique</h3>
-												<p> Utilisation des outils de calculs notamment Caneco BT ou un tableur spécifique pour calcul de bilan de puissance</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Conception des synoptiques et Schémas électriques</h3>
-												<p>Utilisation des outils informatique: Caneco BT, Autocad, Caneco Implantation...</p>
-											</div>
-										</article>
-									</div>
-								</section>
+						<p><strong>Objectifs :</strong> Vous former efficacement, que vous soyez étudiant, professionnel et/ou passionné. Prêt à maîtriser les courants forts et faibles ? Par où commencer ?</p>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ipsum sed dolor</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/Schéma Tableau électrique.webp" alt="" /></a>
-											<h3>CONCEPTION ELECTRIQUE</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
-						</div>
+						<ul class="actions">
+							<li><a href="tutoriels.html" class="button">Découvrez nos modules</a></li>
+						</ul>
+
+						<ul>
+							<li><a href="projets.html">Parcourir les projets</a></li>
+							<li>Contactez-nous pour un besoin spécifique :
+								<a href="tel:+33142506025">0142506025</a>
+								/ <a href="tel:+33777463399">0777463399</a>
+								ou par mail <a href="mailto:salomonmoulo24@gmail.com">salomonmoulo24@gmail.com</a>
+							</li>
+						</ul>
+
+						<p>Bienvenue sur notre page web. Sans plus tarder, commençons notre exploration au cœur de l’électrotechnique, de l’électricité et de l’automatisme !</p>
+
+						<ul class="actions">
+							<li><a href="a_propos.html" class="button big">En savoir plus</a></li>
+						</ul>
 					</div>
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+					<span class="image object">
+						<!-- ATTENTION : garde le nom exact du fichier image dans ton dossier images/ -->
+						<img src="images/plan électrique architectural.webp" alt="Plan électrique architectural" />
+					</span>
+				</section>
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
+				<h1>PLAN</h1>
 
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="generic.html">Generic</a></li>
-										<li><a href="elements.html">Elements</a></li>
-										<li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Etiam Dolore</a></li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
-									</ul>
-								</nav>
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>DESIGN ELECTRIQUE / CONCEPTION ELECTRIQUE BASSE TENSION</h2>
+					</header>
+					<div class="features">
+						<article>
+							<span class="icon fa-gem"></span>
+							<div class="content">
+								<h3>Les Normes</h3>
+								<ul>
+									<li>Les normes NFC</li>
+									<li>Les normes CEI</li>
+									<li>Les normes dérivées</li>
+								</ul>
+							</div>
+						</article>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
+						<article>
+							<span class="icon solid fa-paper-plane"></span>
+							<div class="content">
+								<h3>Quelques requis</h3>
+								<ul>
+									<li>Inventaire complet des équipements</li>
+									<li>Plant Layout / Plan architectural</li>
+								</ul>
+							</div>
+						</article>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-										<li class="icon solid fa-phone">(000) 000-0000</li>
-										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section>
+						<article>
+							<span class="icon solid fa-rocket"></span>
+							<div class="content">
+								<h3>Le bilan de puissance et dimensionnement électrique</h3>
+								<p>Utilisation des outils de calculs notamment Caneco BT ou un tableur spécifique pour calcul de bilan de puissance.</p>
+							</div>
+						</article>
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
-
-						</div>
+						<article>
+							<span class="icon solid fa-signal"></span>
+							<div class="content">
+								<h3>Conception des synoptiques et schémas électriques</h3>
+								<p>Utilisation des outils informatiques : Winrelais, AutoCAD, Caneco Implantation...</p>
+							</div>
+						</article>
 					</div>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>ELECTRICITE HAUTE TENSION ET RESEAUX DE DISTRIBUTION</h2>
+					</header>
+					<div class="features">
+						<article>
+							<span class="icon fa-gem"></span>
+							<div class="content">
+								<h3>Les Normes</h3>
+								<ul>
+									<li>Les normes NFC</li>
+									<li>Les normes CEI</li>
+									<li>Les normes dérivées</li>
+								</ul>
+							</div>
+						</article>
+
+						<article>
+							<span class="icon solid fa-paper-plane"></span>
+							<div class="content">
+								<h3>Les sources haute tension et distribution</h3>
+							</div>
+						</article>
+
+						<article>
+							<span class="icon solid fa-rocket"></span>
+							<div class="content">
+								<h3>Les postes haute tension</h3>
+							</div>
+						</article>
+
+						<article>
+							<span class="icon solid fa-signal"></span>
+							<div class="content">
+								<h3>Les postes et réseaux de distribution</h3>
+							</div>
+						</article>
+					</div>
+				</section>
+
+				<!-- Section: posts / tutoriels -->
+				<section>
+					<header class="major">
+						<h2>Tutoriels & Exemples</h2>
+					</header>
+					<div class="posts">
+						<article>
+							<a href="tutoriels/conception-electrique.html" class="image"><img src="images/Schéma Tableau électrique.webp" alt="Schéma Tableau électrique" /></a>
+							<h3>CONCEPTION ELECTRIQUE</h3>
+							<p>Guide pas-à-pas — conception d'un tableau électrique et implantation.</p>
+							<ul class="actions">
+								<li><a href="tutoriels/conception-electrique.html" class="button">More</a></li>
+							</ul>
+						</article>
+
+						<article>
+							<a href="tutoriels/automatisme-1.html" class="image"><img src="images/pic02.jpg" alt="Pic 02" /></a>
+							<h3>Automatisme — introduction</h3>
+							<p>Bases de la programmation d'automates et exemples.</p>
+							<ul class="actions">
+								<li><a href="tutoriels/automatisme-1.html" class="button">More</a></li>
+							</ul>
+						</article>
+
+						<article>
+							<a href="tutoriels/domotique-projet.html" class="image"><img src="images/pic03.jpg" alt="Pic 03" /></a>
+							<h3>Projet domotique</h3>
+							<p>Exemple de maison connectée : capteurs, scénarios et sécurité.</p>
+							<ul class="actions">
+								<li><a href="tutoriels/domotique-projet.html" class="button">More</a></li>
+							</ul>
+						</article>
+
+						<!-- autres articles -->
+						<article>
+							<a href="tutoriels/energie-renouvelable.html" class="image"><img src="images/pic04.jpg" alt="Pic 04" /></a>
+							<h3>Energies renouvelables</h3>
+							<p>Étude d'intégration photovoltaïque et stratégies.</p>
+							<ul class="actions">
+								<li><a href="tutoriels/energie-renouvelable.html" class="button">More</a></li>
+							</ul>
+						</article>
+
+						<article>
+							<a href="tutoriels/outils-calcul.html" class="image"><img src="images/pic05.jpg" alt="Pic 05" /></a>
+							<h3>Outils de calcul</h3>
+							<p>Prise en main : Dialux, Caneco, Eplan — exemples pratiques.</p>
+							<ul class="actions">
+								<li><a href="tutoriels/outils-calcul.html" class="button">More</a></li>
+							</ul>
+						</article>
+
+						<article>
+							<a href="tutoriels/supervision.html" class="image"><img src="images/pic06.jpg" alt="Pic 06" /></a>
+							<h3>Supervision & SCADA</h3>
+							<p>Principes de supervision et échanges avec automates.</p>
+							<ul class="actions">
+								<li><a href="tutoriels/supervision.html" class="button">More</a></li>
+							</ul>
+						</article>
+
+					</div>
+				</section>
 
 			</div>
+		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
 
-	</body>
+				<!-- Search -->
+				<section id="search" class="alt">
+					<form method="get" action="search.html">
+						<input type="text" name="query" id="query" placeholder="Rechercher" />
+					</form>
+				</section>
+
+				<!-- Menu (arborescence) -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="tutoriels.html">Tutoriels</a></li>
+						<li><a href="projets.html">Projets</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li>
+							<span class="opener">Submenu</span>
+							<ul>
+								<li><a href="pages/lorem-dolor.html">Lorem Dolor</a></li>
+								<li><a href="pages/ipsum-adipiscing.html">Ipsum Adipiscing</a></li>
+								<li><a href="pages/tempus-magna.html">Tempus Magna</a></li>
+								<li><a href="pages/feugiat-veroeros.html">Feugiat Veroeros</a></li>
+							</ul>
+						</li>
+						<li><a href="articles/etiam-dolore.html">Etiam Dolore</a></li>
+						<li><a href="articles/adipiscing.html">Adipiscing</a></li>
+						<li>
+							<span class="opener">Another Submenu</span>
+							<ul>
+								<li><a href="pages/lorem-dolor-2.html">Lorem Dolor</a></li>
+								<li><a href="pages/ipsum-adipiscing-2.html">Ipsum Adipiscing</a></li>
+								<li><a href="pages/tempus-magna-2.html">Tempus Magna</a></li>
+								<li><a href="pages/feugiat-veroeros-2.html">Feugiat Veroeros</a></li>
+							</ul>
+						</li>
+						<li><a href="pages/maximus-erat.html">Maximus Erat</a></li>
+						<li><a href="pages/sapien-mauris.html">Sapien Mauris</a></li>
+						<li><a href="pages/amet-lacinia.html">Amet Lacinia</a></li>
+						<li><a href="a_propos.html">À PROPOS</a></li>
+					</ul>
+				</nav>
+
+				<!-- Mini-posts -->
+				<section>
+					<header class="major">
+						<h2>Ante interdum</h2>
+					</header>
+					<div class="mini-posts">
+						<article>
+							<a href="posts/post1.html" class="image"><img src="images/pic07.jpg" alt="Pic 07" /></a>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+						</article>
+						<article>
+							<a href="posts/post2.html" class="image"><img src="images/pic08.jpg" alt="Pic 08" /></a>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+						</article>
+						<article>
+							<a href="posts/post3.html" class="image"><img src="images/pic09.jpg" alt="Pic 09" /></a>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+						</article>
+					</div>
+					<ul class="actions">
+						<li><a href="posts.html" class="button">More</a></li>
+					</ul>
+				</section>
+
+				<!-- Contact -->
+				<section>
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<p class="muted">Pour toute question, collaboration ou demande de formation, contacte-moi directement :</p>
+					<ul class="contact">
+						<li class="icon solid fa-envelope"><a href="mailto:salomonmoulo24@gmail.com">salomonmoulo24@gmail.com</a></li>
+						<li class="icon solid fa-phone"><a href="tel:+33142506025">0142506025</a></li>
+						<li class="icon solid fa-phone"><a href="tel:+33777463399">0777463399</a></li>
+						<li class="icon solid fa-home">Ville / Pays — <!-- TODO: renseigner adresse si souhaité --></li>
+					</ul>
+				</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright">&copy; 2025 MOULO Oholo Kraidy Salomon. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+				</footer>
+
+			</div>
+		</div>
+
+	</div> <!-- /wrapper -->
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
 </html>
