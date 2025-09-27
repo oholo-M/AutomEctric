@@ -22,6 +22,36 @@ section, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
+.hero {
+  height: 25vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /* --- Nouveau fond dégradé noir → violet --- */
+  background: linear-gradient(135deg, #000000, #6a0dad);
+  text-align: center;
+  padding: 0 12px;
+}
+
+.hero-content h1 {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: clamp(28px, 6vw, 52px);
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #ffffff;
+  border-right: 3px solid #fff;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #fff; }
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
